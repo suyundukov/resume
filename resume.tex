@@ -1,0 +1,125 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks, pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\definecolor{Primary}{RGB}{179, 13, 13}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\color{Primary}\raggedright\large
+}{}{0em}{}[\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small #1
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% Start
+\begin{document}
+
+% Heading
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://suyundukov.com/}{\Large Nurlan Suyundukov}} & Email : \href{mailto:hey@suyundukov.com}{hey@suyundukov.com}\\
+  \href{https://suyundukov.com/}{https://suyundukov.com} & Mobile : +357 94 416323 \\
+\end{tabular*}
+
+% Education
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Université Claude Bernard Lyon 1}{Lyon, France}
+      {Coursework toward a Bachelor of Computer Science}{Sep 2014 -- Jun 2017}
+  \resumeSubHeadingListEnd
+
+% Experience
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {GetTransfer.com}{Limassol, Cyprus}
+      {Senior Frontend Developer}{Sep 2020 -- Present}
+      \resumeItemListStart
+        \resumeItem{Responsible for writing clean code, product planning, driving technical design and owning technical delivery.}
+        \resumeItem{Mentored junior and senior engineers on best practices in full stack development.}
+        \resumeItem{Performed bug fixes and code reviews.}
+      \resumeItemListEnd
+      Technologies used: JavaScript, Vue.js, Node.js, HTML/CSS, SCSS, Capacitor, Memcached.
+
+    \resumeSubheading
+      {GetTransfer.com}{Moscow, Russia}
+      {Frontend Developer}{Jun 2019 -- Sep 2020}
+      \resumeItemListStart
+        \resumeItem{Performed front-end development for all projects.}
+        \resumeItem{Ensured scalability of front end elements by optimizing them for loading speed and performance.}
+        \resumeItem{Supervise junior developers, provide training and motivate team members.}
+      \resumeItemListEnd
+      Technologies used: JavaScript, Vue.js, Node.js, HTML/CSS, SCSS, Capacitor
+
+    \resumeSubheading
+      {SprintMaster Ltd. (m7.su)}{Moscow, Russia}
+      {Frontend Developer}{Oct 2018 -- Jun 2019}
+      \resumeItemListStart
+        \resumeItem{Build stable and maintainable codebases using React.}
+        \resumeItem{Implemented a mobile-first approach to existing websites.}
+        \resumeItem{Implemented HTML email templates and newsletters for marketing campaigns.}
+      \resumeItemListEnd
+      Technologies used: TypeScript, React, Redux, HTML/CSS, SCSS, GraphQL, Capacitor
+
+  \resumeSubHeadingListEnd
+
+% Programming Skills
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+    \item \textbf{Languages}{: Go, JavaScript, Python, TypeScript}
+    \item \textbf{Technologies}{: React, Vue, Node.js, Git, JQuery, HTML, CSS}
+    \item \textbf{Other}{: PostgreSQL, Redis, Memcached}
+ \resumeSubHeadingListEnd
+
+% Miscellaneous
+\section{Miscellaneous}
+  \resumeSubHeadingListStart
+    \item Languages: English, French, Russian
+ \resumeSubHeadingListEnd
+
+ \end{document}

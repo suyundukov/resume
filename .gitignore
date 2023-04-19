@@ -1,0 +1,34 @@
+# OS files
+/*.bat
+/\!*
+.DS_Store
+*.pdf
+
+# Latex files
+*.log
+*.aux
+*.bbl
+*.blg
+*.tex.undo
+*.tex.bak
+*.~te
+*.$te
+*.DVX
+*.DDF
+*.synctex.gz
+*.synctex.gz(busy)
+*.fdb_latexmk
+*.fls
+*.out
+*.toc
+*.lof
+*.lot
+*.idx
+*.ilg
+*.ind
+
+*.dvi
+*.ps
+
+# Output
+resume.pdf
