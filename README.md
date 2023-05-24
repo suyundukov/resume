@@ -15,6 +15,6 @@ This resume is based off a template I found on [Overleaf](https://www.overleaf.c
 ## License
 
 <p align="center">
-  <a href="./LICENSE"><img src="https://nurlan.co/cdn/logo.svg" width="100%" height="128"></a>
+  <a href="./LICENSE"><img src="https://suyundukov.com/cdn/logo.svg" width="100%" height="128"></a>
   <a href="./LICENSE"><strong>MIT</strong></a>
 </p>
